@@ -1,0 +1,87 @@
+5<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>design</title>
+    <link rel="stylesheet" href="css_for_simple.css">
+</head>
+<body style="background-color: black;">
+    <div class="navbar">
+        <div class="icon">
+         <h2 class="logo" id="logo" onclick="logologo();">LEARN</h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="services.html">SERVICE</a></li>
+                <li><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default_default">DESIGN</a></li>
+                <li><a href="#footer">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input class="srch" type="search" name="**" placeholder="Search">
+            <a href="#"><button class="btn">Search</button></a>
+    </div>
+    </div>
+        <div class="content">
+            <h1>Web Design<br><span>Development</span><br>course</h1>
+           <p class="par">Loren ipson dolor sit amet consetecture elit.sunt neque expedita atque eveniet quis quos nulla<br> consequunyudkasfskk nesciunt.hewycfxwydejiuy eidtyges</p>
+
+           <button class="cn"><a href="#">Join Us </a></button>
+           <div class="form">
+               <h2>Login Here</h2>
+               <input type="email" name="email" placeholder="Enter Email Here">
+               <input type="password" name="" placeholder="Enter Password Here">
+               <button class="btnn"><a href="#">Login</a></button>
+
+               <p class="link">Don't have an account<br>
+               <a href="#">Sign up </a>here </p>
+               <p class="liw">Log in With </p>
+               <div class="icon">
+                   <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                   <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                   <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                   <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                   <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+               </div>
+           </div>
+        </div>
+    
+
+        <div id="about"><h2>ABOUT:</h2>
+            <p>Imagine meeting a friend, but when they open their mouth to speak to you, all you hear is gibberish. When you ask them to explain, <br>the explanation sounds like gibberish too. </p>
+            <p>When you’re hearing new programming terms for the first time, it can easily feel like that! Command-line? An array? Huh?</p>
+            <p>Kids who learn coding are learning a new language that is complete with its own syntax and vocabulary. While not exactly gibberish,<br>
+               it probably seems like it from the outside. Many of these coding terms, definitions, and concepts can feel as foreign as being on a new<br>
+               planet. So, it’s important to understand and feel comfortable with coding jargon before diving into the written portion.</p>
+            <p>Code documentation and terminology gives a foundation for how a language works and how specific parts of your code will function. <br>
+               By learning the most common programming terms and concepts, kids can feel confident as they read and learn more about specific languages.</p>
+            <p>This list of the 200 common programming and coding terms is simplified for kids to be easy to understand. Kids can use it as a reference<br>
+                 if they are learning or as a refresher if they’ve already started coding.</p>  
+        </div>
+    </div>
+        <footer id="footer">
+            <div id="icon">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+            <a href="#">amathmik@gmail.com</a>
+    </footer>
+    
+    
+       
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+    <script type="text/javascript">
+        var logo = document.getElementById("logo");
+        function logologo(){
+            logo.innerHTML="Learn To <br>Develop"};
+    </script>
+</body>
+</html>
